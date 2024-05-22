@@ -84,9 +84,25 @@ p2{
     color: #ffffff;
 }
 
+.imgTextOverlay {
+    background-image: url(../Assets/Images/homePageHeader.png);
+    width: 100%;
+    height: 88vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    position: relative;
+    text-align: left;
+    color: #000000;
+    font-size: 48px;
+}
+
 .topNav{
-    overflow: hidden;
     background-color: #ebe9f8;
+    height: 80px;
+    width: 80%;
+    margin: 0 0 0 7.5%;
 }
 
 .topNav a {
@@ -100,7 +116,8 @@ p2{
 }
 
 .topNavRight {
-    float: right;
+    display: flex;
+    padding-left: 12%;
     background-color: #ebe9f8;
 }
 
@@ -110,23 +127,28 @@ p2{
     padding-bottom: 0px;
 }
 
+.nav-link img{
+    width: 266px;
+    height: 48px;
+    object-fit: contain;
+}
+
 .topNav a:hover {
     background-color: #F2CD00;
     color: white;
 }
 
 .topNav a.active {
-
     background-color: #DC611E;
     color: white;
 }
 
 .search{
     padding: 10px 10px 10px 10px;
-    margin-top: 23px;
-    margin-right: 15px;
-    margin-left: 300px;
     border-radius: 15px;
+    margin-left: 12%;
+    height: 45px;
+    width: 220px;
 
 }
 
@@ -138,23 +160,18 @@ header img {
     opacity: 1;
 }
 
-.imgTextOverlay {
-    position: relative;
-    text-align: left;
-    color: #000000;
-    font-size: 48px;
-}
-
 .imgTextOverlay2{
+    background-image: url(../Assets/Images/homePageHeader.png);
+    width: 100%;
+    height: 88vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
     position: relative;
     text-align: center;
     color: #000000;
-    font-size: 90px;
-}
-
-.imgTextOverlay2 img{
-    height: 300px;
-    margin-bottom: -3px;
+    font-size: 48px;
 }
 
 .center{
@@ -316,6 +333,12 @@ header img {
     align-items: center;
     align-content: space-around;
     background-color: #F2CD00;
+}
+
+.flexContainer4 img{
+    width: 278px;
+    height: 278px;
+    margin-bottom: 10px;
 }
 
 .flexContainer5{
@@ -485,6 +508,7 @@ header img {
     flex: 40%;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin: 0;
 }
 
 .flexItem8 img{

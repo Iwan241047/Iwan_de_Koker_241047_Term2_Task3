@@ -21,22 +21,22 @@
 
     </head>
     <body>
-        <nav>
-            <div class="topNav">
-    
-                <a href="../index.html"><img src="../assets/images/logo.png" width="266px" height="48px"></a>
-    
-                <div class="topNavRight">
-                    <a href="../index.html">Home</a>
-                    <a href="../pages/contact.html">Contact Us</a>
-                    <a class="active" href="../pages/flights.html">Flights</a>
-                    <input class="search" type="text" placeholder="Search">
-                </div>   
-            </div>
-        </nav>
         <header>
             <div class="imgTextOverlay2">
-                <img src="../assets/images/headerbackBack.png">
+                <nav>
+                    <div class="topNav navbar-expand-lg navbar-custom">
+            
+                        <div><a href="../index.html"><img src="../assets/images/logo.png" width="266px" height="48px"></a></div>
+            
+                        <div class="topNavRight">
+                            <a class="nav-link" href="../index.html">Home</a>
+                            <a class="nav-link active" href="../pages/flights.html">Flights</a>
+                            <a class="nav-link" href="../pages/contact.html">Contact Us</a>
+                            <input class="search form-control mt-2" type="text" placeholder="Search">
+                        </div>   
+                    </div>
+                </nav>
+
                 <div class="center1">BOOK A FLIGHT</div>  
             </div>
         </header>
@@ -81,8 +81,8 @@
                 <div class="flexContainer5">
                     <div class="flexItem8"><img src="../assets/images/flighhtMars.png" width="70%" height="600px"></div>
                     <div class="flexItem2">
-                        <h2>The Classic Mars Experience</h2>
-                        <h4>R 25,000.00 R50,000.00</h4>
+                        <h2 id="mars">The Classic Mars Experience</h2>
+                        <h4>R 25,000.00 <s>R50,000.00</s></h4>
                         <div class="flexContainer8">
                             <img src="../Assets/Images/Full Star White.png" width="20px">
                             <img src="../Assets/Images/Full Star White.png" width="20px">
@@ -100,16 +100,16 @@
                             <button class="quantityButton">- 1 +</button>
                             <button name="Submit" type="submit" id="submitContainerForm">Book Now</button>
                         <hr class="line">   
-                        <p>SKU       :SS001</p>
-                        <p>Shuttle   :The Opulence</p>
-                        <p>Tags      :Mars, Luxury, Sale</p>
-                        <p>Date      :16 June - 19 July</p>
+                        <p>SKU &nbsp &nbsp &nbsp &nbsp : &nbsp SS001</p>
+                        <p>Shuttle &nbsp : &nbsp The Opulence</p>
+                        <p>Tags &nbsp &nbsp &nbsp : &nbsp Mars, Luxury, Sale</p>
+                        <p>Date &nbsp  &nbsp &nbsp : &nbsp 16 June - 19 July</p>
                     </div>
                 </div>
                 <div class="flexContainer7">
                     <div class="flexItem8"><img src="../assets/Images/flightNeptune.png"width="70%" height="600px"></div>
                     <div class="flexItem2">
-                        <h2>Neptune’s Cosmic Dive</h2>
+                        <h2 id="neptune">Neptune’s Cosmic Dive</h2>
                         <h4>R 45,000.00</h4>
                         <div class="flexContainer7">
                             <img src="../Assets/Images/Full Star Blue.png" width="20px">
@@ -150,7 +150,7 @@
                 <div class="flexContainer5">
                     <div class="flexItem8"><img src="../assets/images/flightJupiter.png" width="70%" height="600px"></div>
                     <div class="flexItem2">
-                        <h2>The Giant’s Journey</h2>
+                        <h2 id="jupiter">The Giant’s Journey</h2>
                         <h4>R 65,000.00</h4>
                         <div class="flexContainer8">
                             <img src="../Assets/Images/Full Star White.png" width="20px">
@@ -179,7 +179,7 @@
                 <div class="flexContainer7">
                     <div class="flexItem8"><img src="../assets/Images/flightSaturn.png"width="70%" height="600px"></div>
                     <div class="flexItem2">
-                        <h2>Ring Around a Saturn</h2>
+                        <h2 id="saturn">Ring Around a Saturn</h2>
                         <h4>R 40,000.00</h4>
                         <div class="flexContainer7">
                             <img src="../Assets/Images/Full Star Blue.png" width="20px">
@@ -251,7 +251,7 @@
                 <div class="flexContainer7">
                     <div class="flexItem8"><img src="../assets/Images/flightMoon.png"width="70%" height="600px"></div>
                     <div class="flexItem2">
-                        <h2>Moonlight Meander</h2>
+                        <h2 id="moon">Moonlight Meander</h2>
                         <h4>R 15,000.00</h4>
                         <div class="flexContainer7">
                             <img src="../Assets/Images/Full Star Blue.png" width="20px">
